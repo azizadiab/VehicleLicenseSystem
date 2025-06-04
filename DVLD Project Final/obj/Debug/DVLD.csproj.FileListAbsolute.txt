@@ -1,0 +1,19 @@
+C:\Users\USER\source\repos\DVLD Project Final\bin\Debug\DVLD Project Final.exe.config
+C:\Users\USER\source\repos\DVLD Project Final\bin\Debug\DVLD Project Final.exe
+C:\Users\USER\source\repos\DVLD Project Final\bin\Debug\DVLD Project Final.pdb
+C:\Users\USER\source\repos\DVLD Project Final\bin\Debug\DVLD_Buisness.dll
+C:\Users\USER\source\repos\DVLD Project Final\bin\Debug\DVLD_Buisness.pdb
+C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.Properties.Resources.resources
+C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD.csproj.Up2Date
+C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD Project Final.exe
+C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD Project Final.pdb
+C:\Users\USER\source\repos\DVLD Project Final\bin\Debug\DVLD_DataAccess.dll
+C:\Users\USER\source\repos\DVLD Project Final\bin\Debug\DVLD_DataAccess.pdb
+C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmMain.resources
+C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmAddUpdatePerson.resources
+C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmListPeople.resources
+C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmPersonInformation.resources
+C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.ctPersonCard.resources
