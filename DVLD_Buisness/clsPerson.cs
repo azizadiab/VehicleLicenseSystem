@@ -53,7 +53,7 @@ namespace DVLD_Buisness
             this.Gendor = Gendor;
             this.Phone = Phone;
             this.Email = Email;
-            this.LastName = LastName;
+            this.Address = Address;
             this.NationalityCountryID = NationalityCountryID;
             this.ImagePath = ImagePath;
             this.CountryInfo = clsCountry.Find(NationalityCountryID);
@@ -73,7 +73,7 @@ namespace DVLD_Buisness
          //this.Gendor = 1;
             this.Phone = "";
             this.Email = "";
-            this.LastName = "";
+            this.Address = "";
             this.NationalityCountryID = -1;
             this.ImagePath = "";
             Mode = eMode.Addnew;

@@ -16,4 +16,4 @@ C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmMa
 C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmAddUpdatePerson.resources
 C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmListPeople.resources
 C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmPersonInformation.resources
-C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.ctPersonCard.resources
+C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.ctrlPersonCard.resources

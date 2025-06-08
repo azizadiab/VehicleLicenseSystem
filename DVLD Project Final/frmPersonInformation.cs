@@ -31,13 +31,19 @@ namespace DVLD_Project_Final
 
         private void frmPersonInformation_Load(object sender, EventArgs e)
         {
-            clsPerson Countect = clsPerson.Find(_Person);
-            ctPersonCard1.LoadPersonInfo(Countect);
+            clsPerson Person = clsPerson.Find(_Person);
+            ctPersonCard1.LoadPersonInfo(Person.PersonID);
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void ctPersonCard1_Load_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

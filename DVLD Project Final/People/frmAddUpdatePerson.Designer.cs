@@ -126,7 +126,6 @@
             this.txtThirdName.Name = "txtThirdName";
             this.txtThirdName.Size = new System.Drawing.Size(124, 28);
             this.txtThirdName.TabIndex = 6;
-            this.txtThirdName.Validating += new System.ComponentModel.CancelEventHandler(this.ValidateEmptyTextBox);
             // 
             // txtLastName
             // 
@@ -134,7 +133,6 @@
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.Size = new System.Drawing.Size(124, 28);
             this.txtLastName.TabIndex = 7;
-            this.txtLastName.Validating += new System.ComponentModel.CancelEventHandler(this.ValidateEmptyTextBox);
             // 
             // lalName
             // 
@@ -153,6 +151,7 @@
             this.lalNationalNo.Size = new System.Drawing.Size(99, 22);
             this.lalNationalNo.TabIndex = 9;
             this.lalNationalNo.Text = "NationalNo";
+            this.lalNationalNo.Click += new System.EventHandler(this.lalNationalNo_Click);
             // 
             // lalGendor
             // 
@@ -211,7 +210,6 @@
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(446, 109);
             this.txtAddress.TabIndex = 19;
-            this.txtAddress.Validating += new System.ComponentModel.CancelEventHandler(this.ValidateEmptyTextBox);
             // 
             // rbMale
             // 

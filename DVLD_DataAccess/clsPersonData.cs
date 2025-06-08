@@ -399,7 +399,7 @@ namespace DVLD_DataAccess
 	               when People.Gendor= 0 then 'male'
 	               ELSE 'Female'
 	               End as GendorCaption ,
-	               People.Email, People.Phone, People.DateOfBirth, People.ImagePath,
+	               people.Address, People.Email, People.Phone, People.DateOfBirth, People.ImagePath,
 	               People.NationalityCountryID, Countries.CountryName
 	               from People  INNER JOIN Countries on People.NationalityCountryID= Countries.CountryID
                     order by People.FirstName";

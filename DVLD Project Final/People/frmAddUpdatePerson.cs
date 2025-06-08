@@ -111,7 +111,7 @@ namespace DVLD_Project_Final
             //the following code will not be executed if the person was not found
             lblMode.Text = "Update New Person";
             lblPersonID.Text = _PersonID.ToString();
-            lalNationalNo.Text = _Person.NationalNo;
+            txtNationalNo.Text = _Person.NationalNo;
             txtFirstName.Text = _Person.FirstName;
             txtSecondName.Text = _Person.SecondName;
             txtThirdName.Text = _Person.ThirdName;
@@ -120,6 +120,7 @@ namespace DVLD_Project_Final
             txtAddress.Text = _Person.Address;
             txtPhone.Text = _Person.Phone;
             txtEmail.Text = _Person.Email;
+            rbMale.Checked = true;
 
           
             if(_Person.Gendor==0)
@@ -140,7 +141,7 @@ namespace DVLD_Project_Final
 
             //hide/show the remove linke incase there is no image for the person.
             llRemoveImage.Visible = (_Person.ImagePath != "");
-      
+            
         }
 
         private void frmAddNewPerson_Load(object sender, EventArgs e)
@@ -160,13 +161,13 @@ namespace DVLD_Project_Final
 
             int CountryID = clsCountry.Find(coCountry.Text).CountryID;
 
-            _Person.NationalNo = lalNationalNo.Text;
+            _Person.NationalNo = txtNationalNo.Text;
             _Person.FirstName = txtFirstName.Text;
             _Person.SecondName = txtSecondName.Text;
             _Person.ThirdName = txtThirdName.Text;
             _Person.LastName = txtLastName.Text;
             _Person.DateOfBirth = dtpDateOfBrith.Value;
-
+            _Person.Phone = txtPhone.Text;
             _Person.Address = txtAddress.Text;
             _Person.Email = txtEmail.Text;
             _Person.NationalityCountryID = CountryID;
@@ -210,72 +211,53 @@ namespace DVLD_Project_Final
 
         }
 
+
+
         private bool _HandlePersonImage()
         {
-            if(_Person.ImagePath!= pbPersonImage.ImageLocation)
+            //this procedure will handle the person image,
+            //it will take care of deleting the old image from the folder
+            //in case the image changed. and it will rename the new image with guid and 
+            // place it in the images folder.
+
+
+            //_Person.ImagePath contains the old Image, we check if it changed then we copy the new image
+
+            if (_Person.ImagePath != pbPersonImage.ImageLocation)
             {
-                if(_Person.ImagePath !="")
+                if (_Person.ImagePath != "")
+                {
+
+                    //first we delete the old image from the folder in case there is any.
                     try
                     {
                         File.Delete(_Person.ImagePath);
+
                     }
-                    catch(IOException)
+                    catch (IOException)
                     {
-                        //We colud not Delete
+                        // We could not delete the file.
+                        //log it later
                     }
-            }
-            if(pbPersonImage.ImageLocation != null)
-            {
-                string SourceImageFile = pbPersonImage.ImageLocation.ToString();
-                if(clsUtil.CopyImageToPRojectImagesFolder(SourceImageFile))
-                {
-                    pbPersonImage.ImageLocation = SourceImageFile;
-                    return true;
                 }
-                MessageBox.Show("Error Copying Image File", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return false;
-
+                if (pbPersonImage.ImageLocation != null)
+                {
+                    //then we copy the new image to the image folder after we rename it
+                    string SourceImageFile = pbPersonImage.ImageLocation.ToString();
+                    if (clsUtil.CopyImageToPRojectImagesFolder(SourceImageFile))
+                    {
+                        pbPersonImage.ImageLocation = SourceImageFile;
+                        return true;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error Copy Image File", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error );
+                        return false;
+                    }
+                }
             }
-
             return true;
-
         }
-
-
-
-        //private bool _HandlePersonImage()
-        //{
-        //    //this procedure will handle the person image,
-        //    //it will take care of deleting the old image from the folder
-        //    //in case the image changed. and it will rename the new image with guid and 
-        //    // place it in the images folder.
-
-
-        //    //_Person.ImagePath contains the old Image, we check if it changed then we copy the new image
-
-        //    if (_Person.ImagePath != "")
-        //    {
-
-        //        //first we delete the old image from the folder in case there is any.
-        //        try
-        //        {
-        //            File.Delete(_Person.ImagePath);
-
-        //        }
-        //        catch (IOException)
-        //        {
-        //            // We could not delete the file.
-        //            //log it later
-        //        }
-        //    }
-        //    if (pbPersonImage.ImageLocation != null)
-        //    {
-        //        //then we copy the new image to the image folder after we rename it
-        //        string SourceImageFile = pbPersonImage.ImageLocation.ToString();
-        //        return true;
-        //    }
-
-        //}
 
 
 
@@ -368,7 +350,7 @@ namespace DVLD_Project_Final
             else
             {
                 e.Cancel = false;
-                errorProvider1.SetError(txtNationalNo, null);
+                errorProvider1.SetError(txtNationalNo, "");
             }
 
             //Make sure the national number is not used by another person
@@ -420,6 +402,11 @@ namespace DVLD_Project_Final
         private void txtFirstName_TextChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void lalNationalNo_Click(object sender, EventArgs e)
+        {
+
         }
     }
 
