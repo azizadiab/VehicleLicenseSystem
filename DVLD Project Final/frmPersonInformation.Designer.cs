@@ -1,6 +1,6 @@
 ﻿namespace DVLD_Project_Final
 {
-    partial class frmPersonInformation
+    partial class frmShowPersonInfo
     {
         /// <summary>
         /// Required designer variable.
@@ -30,6 +30,7 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.ctPersonCard1 = new DVLD_Project_Final.ctrlPersonCard();
+            this.laPersonDetails = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -46,25 +47,40 @@
             // 
             // ctPersonCard1
             // 
-            this.ctPersonCard1.Location = new System.Drawing.Point(1, 35);
+            this.ctPersonCard1.AccessibleDescription = "";
+            this.ctPersonCard1.AccessibleName = "";
+            this.ctPersonCard1.Location = new System.Drawing.Point(1, 65);
             this.ctPersonCard1.Margin = new System.Windows.Forms.Padding(4);
             this.ctPersonCard1.Name = "ctPersonCard1";
-            this.ctPersonCard1.Size = new System.Drawing.Size(884, 375);
+            this.ctPersonCard1.Size = new System.Drawing.Size(884, 345);
             this.ctPersonCard1.TabIndex = 1;
-            this.ctPersonCard1.Load += new System.EventHandler(this.ctPersonCard1_Load_1);
+          
+            // 
+            // laPersonDetails
+            // 
+            this.laPersonDetails.AutoSize = true;
+            this.laPersonDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.laPersonDetails.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.laPersonDetails.Location = new System.Drawing.Point(366, 23);
+            this.laPersonDetails.Name = "laPersonDetails";
+            this.laPersonDetails.Size = new System.Drawing.Size(170, 29);
+            this.laPersonDetails.TabIndex = 2;
+            this.laPersonDetails.Text = "Person Details";
             // 
             // frmPersonInformation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(900, 506);
+            this.Controls.Add(this.laPersonDetails);
             this.Controls.Add(this.ctPersonCard1);
             this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "frmPersonInformation";
             this.Text = "Person Information";
-            this.Load += new System.EventHandler(this.frmPersonInformation_Load);
+           
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -72,5 +88,6 @@
 
         private System.Windows.Forms.Button button1;
         private ctrlPersonCard ctPersonCard1;
+        private System.Windows.Forms.Label laPersonDetails;
     }
 }

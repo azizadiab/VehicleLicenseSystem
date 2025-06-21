@@ -15,5 +15,9 @@ C:\Users\USER\source\repos\DVLD Project Final\bin\Debug\DVLD_DataAccess.pdb
 C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmMain.resources
 C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmAddUpdatePerson.resources
 C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmListPeople.resources
-C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmPersonInformation.resources
 C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.ctrlPersonCard.resources
+C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.ctrlPersonCardWithFilter.resources
+C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmLocal.resources
+C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmLocalDrivingLiceneseApplication.resources
+C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmFindPerson.resources
+C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmShowPersonInfo.resources

@@ -11,39 +11,26 @@ using System.Windows.Forms;
 
 namespace DVLD_Project_Final
 {
-    public partial class frmPersonInformation : Form
+    public partial class frmShowPersonInfo : Form
     {
-        int _Person ;
 
-        public frmPersonInformation(int Id)
+        public frmShowPersonInfo(int PersonID)
         {
             InitializeComponent();
-            _Person = Id;
+            ctPersonCard1.LoadPersonInfo(PersonID);
         }
 
-        private void ctPersonCard1_Load(object sender, EventArgs e)
+        public frmShowPersonInfo(string NationalNo)
         {
-            
-
-            //clsBuisness Countect = clsBuisness.Find(_Person);
-            //ctPersonCard1.LoadPersonInfo(Countect);
+            InitializeComponent();
+            ctPersonCard1.LoadPersonInfo(NationalNo);
         }
 
-        private void frmPersonInformation_Load(object sender, EventArgs e)
-        {
-            clsPerson Person = clsPerson.Find(_Person);
-            ctPersonCard1.LoadPersonInfo(Person.PersonID);
-
-        }
-
+      
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void ctPersonCard1_Load_1(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lbPersonDetails = new System.Windows.Forms.Label();
             this.llPersonID = new System.Windows.Forms.Label();
             this.llName = new System.Windows.Forms.Label();
             this.llNationalNo = new System.Windows.Forms.Label();
@@ -49,20 +48,9 @@
             this.lbCountry = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.llEditPersonInfo = new System.Windows.Forms.LinkLabel();
+            this.laPersonInformation = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // lbPersonDetails
-            // 
-            this.lbPersonDetails.AutoSize = true;
-            this.lbPersonDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbPersonDetails.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lbPersonDetails.Location = new System.Drawing.Point(253, 37);
-            this.lbPersonDetails.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbPersonDetails.Name = "lbPersonDetails";
-            this.lbPersonDetails.Size = new System.Drawing.Size(138, 25);
-            this.lbPersonDetails.TabIndex = 0;
-            this.lbPersonDetails.Text = "Person Details";
             // 
             // llPersonID
             // 
@@ -266,10 +254,23 @@
             this.llEditPersonInfo.Text = "Edit Person Info";
             this.llEditPersonInfo.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llEditPersonInfo_LinkClicked);
             // 
+            // laPersonInformation
+            // 
+            this.laPersonInformation.AutoSize = true;
+            this.laPersonInformation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.laPersonInformation.Location = new System.Drawing.Point(13, 4);
+            this.laPersonInformation.Name = "laPersonInformation";
+            this.laPersonInformation.Size = new System.Drawing.Size(134, 18);
+            this.laPersonInformation.TabIndex = 21;
+            this.laPersonInformation.Text = "Person Information";
+            // 
             // ctrlPersonCard
             // 
+            this.AccessibleDescription = "";
+            this.AccessibleName = "";
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.laPersonInformation);
             this.Controls.Add(this.llEditPersonInfo);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lbCountry);
@@ -290,10 +291,10 @@
             this.Controls.Add(this.llNationalNo);
             this.Controls.Add(this.llName);
             this.Controls.Add(this.llPersonID);
-            this.Controls.Add(this.lbPersonDetails);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ctrlPersonCard";
             this.Size = new System.Drawing.Size(809, 353);
+           
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -301,8 +302,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lbPersonDetails;
         private System.Windows.Forms.Label llPersonID;
         private System.Windows.Forms.Label llName;
         private System.Windows.Forms.Label llNationalNo;
@@ -323,5 +322,6 @@
         private System.Windows.Forms.Label lbCountry;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.LinkLabel llEditPersonInfo;
+        private System.Windows.Forms.Label laPersonInformation;
     }
 }

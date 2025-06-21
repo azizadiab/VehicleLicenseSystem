@@ -11,8 +11,8 @@ namespace DVLD_Project_Final
     public partial class frmAddUpdatePerson : Form
     {
 
-        private delegate void DataBackeEventHendel(object sender, int PersonId);
-        private event DataBackeEventHendel DataBacke;
+        public delegate void DataBackeEventHendel(object sender, int PersonId);
+        public event DataBackeEventHendel DataBack;
         public enum enMode { AddNew = 0, Update = 1 };
         public enum enGendor { Male = 0, Female = 1};
 
@@ -200,7 +200,7 @@ namespace DVLD_Project_Final
 
                 MessageBox.Show("Data Saved Successfully.", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 // Trigger the event to send data back to the caller form.
-                DataBacke?.Invoke(this, _Person.PersonID);
+                DataBack?.Invoke(this, _Person.PersonID);
                 
             }
 

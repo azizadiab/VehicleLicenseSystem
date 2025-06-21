@@ -15,17 +15,17 @@ namespace DVLD_Project_Final
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Form frm = new frmListPeople();
-            frm.ShowDialog();
+          
 
         }
 
 
         private void peopleToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Form frm = new frmListPeople();
+            frm.ShowDialog();
 
 
-         
         }
 
         private void uToolStripMenuItem_Click(object sender, EventArgs e)
@@ -46,6 +46,12 @@ namespace DVLD_Project_Final
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void localLicenseToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmLocal();
+            frm.ShowDialog();
         }
     }
 }

@@ -46,8 +46,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="People\Control\ctrlPersonCardWithFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="People\Control\ctrlPersonCardWithFilter.Designer.cs">
+      <DependentUpon>ctrlPersonCardWithFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="People\frmFindPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="People\frmFindPerson.Designer.cs">
+      <DependentUpon>frmFindPerson.cs</DependentUpon>
+    </Compile>
     <Compile Include="Global Calsses\clsUtil.cs" />
     <Compile Include="Global Calsses\clsValidatoin.cs" />
+    <Compile Include="Applications\Local.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\Local.Designer.cs">
+      <DependentUpon>Local.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LocalControlFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LocalControlFilter.Designer.cs">
+      <DependentUpon>LocalControlFilter.cs</DependentUpon>
+    </Compile>
     <Compile Include="People\Control\ctPersonCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -80,6 +104,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Applications\Local.resx">
+      <DependentUpon>Local.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\Control\ctrlPersonCardWithFilter.resx">
+      <DependentUpon>ctrlPersonCardWithFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocalControlFilter.resx">
+      <DependentUpon>LocalControlFilter.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="People\Control\ctPersonCard.resx">
       <DependentUpon>ctPersonCard.cs</DependentUpon>
     </EmbeddedResource>
@@ -91,6 +124,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="People\frmFindPerson.resx">
+      <DependentUpon>frmFindPerson.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="People\frmListPeople.resx">
       <DependentUpon>frmListPeople.cs</DependentUpon>
@@ -178,6 +214,14 @@
   <ItemGroup>
     <None Include="Resources\Female 5121.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\SearchPerson.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add Person 401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New Application 64.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

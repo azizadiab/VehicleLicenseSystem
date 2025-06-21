@@ -35,37 +35,19 @@ namespace DVLD_Project_Final
             InitializeComponent();
         }
 
-       public void LoadPersonInfo(int NationalNo)
+       public void LoadPersonInfo(int PersonID)
         {
-            _Person = clsPerson.Find(NationalNo);
+            _Person = clsPerson.Find(PersonID);
             if (_Person == null)
             {
                 ResetPersonInfo();
-                MessageBox.Show("No Person with Person ID: " + NationalNo.ToString(),
+                MessageBox.Show("No Person with Person ID: " + PersonID.ToString(),
                     "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            _FillPersonInfo(_Person);
+            _FillPersonInfo();
         }
 
-
-        public void ResetPersonInfo()
-        {
-           
-            _PersonID = -1;
-            lbPersonId.Text = "[??]";
-            lbNationalNo.Text = "[??]";
-            lbName.Text = "[??]";
-            lbAddress.Text = "[??]";
-            llEmail.Text = "[??]";
-            lbPhone.Text = "[??]";
-            lbGendor.Text ="[??]";
-            llBirthOfDate.Text = "[??]";
-            llCountry.Text = "[??]";
-            pictureBox1.Image = Properties.Resources.Male_512;
-
-
-        }
         public void LoadPersonInfo(string NationalNo)
         {
             _Person = clsPerson.Find(NationalNo);
@@ -76,9 +58,10 @@ namespace DVLD_Project_Final
                     "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            _FillPersonInfo(_Person);
+            _FillPersonInfo();
         }
 
+     
         public void _LoadPersonImage()
         {
             if(_Person.Gendor==0)
@@ -104,7 +87,7 @@ namespace DVLD_Project_Final
 
         }
 
-        private void _FillPersonInfo(clsPerson _Person)
+        private void _FillPersonInfo()
         {
             llEditPersonInfo.Enabled = true;
             _PersonID = _Person.PersonID;
@@ -120,6 +103,24 @@ namespace DVLD_Project_Final
             _LoadPersonImage();
 
         }
+        public void ResetPersonInfo()
+        {
+
+            _PersonID = -1;
+            lbPersonId.Text = "[??]";
+            lbNationalNo.Text = "[??]";
+            lbName.Text = "[??]";
+            lbAddress.Text = "[??]";
+            llEmail.Text = "[??]";
+            lbPhone.Text = "[??]";
+            lbGendor.Text = "[??]";
+            llBirthOfDate.Text = "[??]";
+            llCountry.Text = "[??]";
+            pictureBox1.Image = Properties.Resources.Male_512;
+
+
+        }
+
         private void llEditPersonInfo_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             frmAddUpdatePerson frm = new frmAddUpdatePerson(_PersonID);
@@ -128,5 +129,6 @@ namespace DVLD_Project_Final
             //refresh
             LoadPersonInfo(_PersonID);
         }
+
     }
 }
