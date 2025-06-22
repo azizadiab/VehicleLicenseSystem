@@ -32,5 +32,9 @@ namespace DVLD_Project_Final
             this.Close();
         }
 
+        private void frmShowPersonInfo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

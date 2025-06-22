@@ -54,7 +54,6 @@
             this.ctPersonCard1.Name = "ctPersonCard1";
             this.ctPersonCard1.Size = new System.Drawing.Size(884, 345);
             this.ctPersonCard1.TabIndex = 1;
-          
             // 
             // laPersonDetails
             // 
@@ -67,7 +66,7 @@
             this.laPersonDetails.TabIndex = 2;
             this.laPersonDetails.Text = "Person Details";
             // 
-            // frmPersonInformation
+            // frmShowPersonInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -76,9 +75,9 @@
             this.Controls.Add(this.ctPersonCard1);
             this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name = "frmPersonInformation";
-            this.Text = "Person Information";
-           
+            this.Name = "frmShowPersonInfo";
+            this.Text = "frmShowPersonInfo";
+            this.Load += new System.EventHandler(this.frmShowPersonInfo_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

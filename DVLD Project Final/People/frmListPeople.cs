@@ -26,18 +26,27 @@ namespace DVLD_Project_Final
         }
 
         private static DataTable _dtAllPeoople = clsPerson.GetPeople();
-
+    
         //only select the columns that you want to show in the grid
         private DataTable _dtPeople = _dtAllPeoople.DefaultView.ToTable(false, "PersonID", "NationalNo",
                                                        "FirstName", "SecondName", "ThirdName", "LastName",
                                                        "GendorCaption", "DateOfBirth", "CountryName",
                                                        "Phone", "Email");
-
-       
+   
         private void _RefreshContactsList()
         {
-            dgvPeople.DataSource = _dtPeople;
-            lblRecordsCount.Text = dgvPeople.Rows.Count.ToString();
+
+
+          _dtAllPeoople = clsPerson.GetPeople();
+
+   
+        _dtPeople = _dtAllPeoople.DefaultView.ToTable(false, "PersonID", "NationalNo",
+                                                       "FirstName", "SecondName", "ThirdName", "LastName",
+                                                       "GendorCaption", "DateOfBirth", "CountryName",
+                                                       "Phone", "Email");
+
+        dgvPeople.DataSource = _dtPeople;
+         lblRecordsCount.Text = dgvPeople.Rows.Count.ToString();
         }
   
         private void frmListPeople_Load(object sender, EventArgs e)
@@ -45,7 +54,7 @@ namespace DVLD_Project_Final
             dgvPeople.DataSource = _dtPeople;
             cbFilterBy.SelectedIndex = 0;
 
-           lblRecordsCount.Text = dgvPeople.Rows.Count.ToString();
+           lblRecordsCount.Text = "# Record: " +dgvPeople.Rows.Count.ToString();
             if(dgvPeople.Rows.Count > 0 )
             {
                 dgvPeople.Columns[0].HeaderText = "Person ID"; 
@@ -142,7 +151,7 @@ namespace DVLD_Project_Final
             {
                 _dtPeople.DefaultView.RowFilter = "";
                 
-                lblRecordsCount.Text = dgvPeople.Rows.Count.ToString();
+                lblRecordsCount.Text = "# Record: "+dgvPeople.Rows.Count.ToString();
                 return;
             }
            if(FilterColumn == "PersonID")
@@ -152,7 +161,7 @@ namespace DVLD_Project_Final
             {
                 _dtPeople.DefaultView.RowFilter = string.Format("[{0}] LIKE '{1}%'", FilterColumn, txtFilterValue.Text.Trim()); lblRecordsCount.Text = dgvPeople.Rows.Count.ToString();
             }
-            lblRecordsCount.Text = dgvPeople.Rows.Count.ToString();
+            lblRecordsCount.Text = "# Record: "+dgvPeople.Rows.Count.ToString();
 
         }
 
@@ -208,8 +217,9 @@ namespace DVLD_Project_Final
 
                 if (clsPerson.DelectePerson((int)dgvPeople.CurrentRow.Cells[0].Value))
                 {
-                    MessageBox.Show("Person Deleted Successfully.", "Successful", MessageBoxButtons.OK, MessageBoxIcon.Information); _RefreshContactsList();
+                    MessageBox.Show("Person Deleted Successfully.", "Successful", MessageBoxButtons.OK, MessageBoxIcon.Information); 
                     _RefreshContactsList();
+
                 }
                 else
                 {
@@ -225,5 +235,22 @@ namespace DVLD_Project_Final
             if (cbFilterBy.Text == "Person ID")
                 e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
         }
+
+        private void sendEmailToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This Feature Is Not Implemented Yet!", "Not Ready!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
+
+        private void phoneCallToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This Feature Is Not Implemented Yet!", "Not Ready!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+      
     }
 }
