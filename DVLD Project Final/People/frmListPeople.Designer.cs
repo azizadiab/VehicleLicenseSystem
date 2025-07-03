@@ -56,6 +56,7 @@
             // 
             this.dgvPeople.AllowUserToAddRows = false;
             this.dgvPeople.AllowUserToDeleteRows = false;
+            this.dgvPeople.AllowUserToOrderColumns = true;
             this.dgvPeople.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPeople.Location = new System.Drawing.Point(4, 207);
             this.dgvPeople.Name = "dgvPeople";
@@ -64,6 +65,7 @@
             this.dgvPeople.RowTemplate.Height = 24;
             this.dgvPeople.Size = new System.Drawing.Size(1045, 411);
             this.dgvPeople.TabIndex = 0;
+            this.dgvPeople.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPeople_CellContentClick);
             // 
             // label1
             // 

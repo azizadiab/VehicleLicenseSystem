@@ -3,16 +3,58 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|c:\\users\\user\\source\\repos\\dvld project final\\people\\frmlistpeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|solutionrelative:people\\frmlistpeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{087D349D-61FB-491B-99C3-741E953D811E}|..\\DVLD_Buisness\\DVLD_Buisness.csproj|c:\\users\\user\\source\\repos\\dvld_buisness\\clsuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|C:\\Users\\USER\\source\\repos\\DVLD Project Final\\people\\frmlistpeople.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|solutionrelative:people\\frmlistpeople.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40E12D9C-98F4-4246-8B02-7EEC49231523}|..\\DVLD_DataAccess\\DVLD_DataAccess.csproj|c:\\users\\user\\source\\repos\\dvld_dataaccess\\clsuesrdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|C:\\Users\\USER\\source\\repos\\DVLD Project Final\\user\\manageusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|solutionrelative:user\\manageusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|C:\\Users\\USER\\source\\repos\\DVLD Project Final\\user\\manageusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|solutionrelative:user\\manageusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|C:\\Users\\USER\\source\\repos\\DVLD Project Final\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|C:\\Users\\USER\\source\\repos\\DVLD Project Final\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|c:\\users\\user\\source\\repos\\dvld project final\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\source\\repos\\DVLD Project Final\\frmShowUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frmShowUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|C:\\Users\\USER\\source\\repos\\DVLD Project Final\\ctrlusercard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|solutionrelative:ctrlusercard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|C:\\Users\\USER\\source\\repos\\DVLD Project Final\\ctrlusercard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|solutionrelative:ctrlusercard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|C:\\Users\\USER\\source\\repos\\DVLD Project Final\\people\\frmlistpeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|solutionrelative:people\\frmlistpeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|C:\\Users\\USER\\source\\repos\\DVLD Project Final\\user\\frmaddnewuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|solutionrelative:user\\frmaddnewuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|C:\\Users\\USER\\source\\repos\\DVLD Project Final\\user\\frmaddnewuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|solutionrelative:user\\frmaddnewuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\source\\repos\\DVLD Project Final\\frmshowuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frmshowuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +64,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,6 +73,56 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsUser.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD_Buisness\\clsUser.cs",
+              "RelativeDocumentMoniker": "..\\DVLD_Buisness\\clsUser.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD_Buisness\\clsUser.cs",
+              "RelativeToolTip": "..\\DVLD_Buisness\\clsUser.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAIwA8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T19:08:46.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsUesrData.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD_DataAccess\\clsUesrData.cs",
+              "RelativeDocumentMoniker": "..\\DVLD_DataAccess\\clsUesrData.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD_DataAccess\\clsUesrData.cs",
+              "RelativeToolTip": "..\\DVLD_DataAccess\\clsUesrData.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACEBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T19:03:12.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\frmLogin.cs",
+              "RelativeDocumentMoniker": "frmLogin.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\frmLogin.cs",
+              "RelativeToolTip": "frmLogin.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAiwBYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T12:53:26.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmShowUser.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\frmShowUser.cs",
+              "RelativeDocumentMoniker": "frmShowUser.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\frmShowUser.cs",
+              "RelativeToolTip": "frmShowUser.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T12:04:18.152Z"
             },
             {
               "$type": "Bookmark",
@@ -42,41 +134,121 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmListPeople.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\People\\frmListPeople.cs",
-              "RelativeDocumentMoniker": "People\\frmListPeople.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\People\\frmListPeople.cs",
-              "RelativeToolTip": "People\\frmListPeople.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAADwv5kAAAAfAAAA",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAwwBMAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T12:05:53.107Z",
+              "WhenOpened": "2025-07-03T12:50:11.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmListPeople.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\People\\frmListPeople.Designer.cs",
-              "RelativeDocumentMoniker": "People\\frmListPeople.Designer.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\People\\frmListPeople.Designer.cs",
-              "RelativeToolTip": "People\\frmListPeople.Designer.cs",
-              "ViewState": "AQIAAKkAAAAAAAAAAAAiwK8AAAA3AAAA",
+              "DocumentIndex": 4,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\frmLogin.cs",
+              "RelativeDocumentMoniker": "frmLogin.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\frmLogin.cs [Design]",
+              "RelativeToolTip": "frmLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T13:45:18.052Z",
+              "WhenOpened": "2025-07-03T12:32:04.075Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManageUsers.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\User\\ManageUsers.cs",
+              "RelativeDocumentMoniker": "User\\ManageUsers.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\User\\ManageUsers.cs",
+              "RelativeToolTip": "User\\ManageUsers.cs",
+              "ViewState": "AQIAAK4AAAAAAAAAAAAIwFAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T12:05:27.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ManageUsers.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\User\\ManageUsers.cs",
+              "RelativeDocumentMoniker": "User\\ManageUsers.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\User\\ManageUsers.cs [Design]",
+              "RelativeToolTip": "User\\ManageUsers.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T11:57:24.94Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmShowUser.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\frmShowUser.cs",
+              "RelativeDocumentMoniker": "frmShowUser.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\frmShowUser.cs [Design]",
+              "RelativeToolTip": "frmShowUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T12:01:11.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ctrlUserCard.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\ctrlUserCard.cs",
+              "RelativeDocumentMoniker": "ctrlUserCard.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\ctrlUserCard.cs",
+              "RelativeToolTip": "ctrlUserCard.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAA/wCEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T12:42:06.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ctrlUserCard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\ctrlUserCard.cs",
+              "RelativeDocumentMoniker": "ctrlUserCard.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\ctrlUserCard.cs [Design]",
+              "RelativeToolTip": "ctrlUserCard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T12:41:49.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "frmListPeople.cs [Design]",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\People\\frmListPeople.cs",
               "RelativeDocumentMoniker": "People\\frmListPeople.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\People\\frmListPeople.cs [Design]",
               "RelativeToolTip": "People\\frmListPeople.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T12:05:44.303Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-07-01T11:57:50.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmAddNewUser.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\User\\frmAddNewUser.cs",
+              "RelativeDocumentMoniker": "User\\frmAddNewUser.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\User\\frmAddNewUser.cs",
+              "RelativeToolTip": "User\\frmAddNewUser.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAUwCUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T07:41:09.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmAddNewUser.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\User\\frmAddNewUser.cs",
+              "RelativeDocumentMoniker": "User\\frmAddNewUser.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\User\\frmAddNewUser.cs [Design]",
+              "RelativeToolTip": "User\\frmAddNewUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T07:41:06.466Z"
             }
           ]
         }

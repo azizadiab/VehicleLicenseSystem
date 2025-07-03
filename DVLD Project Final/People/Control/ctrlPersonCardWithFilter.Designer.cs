@@ -48,8 +48,8 @@
             // 
             this.cbFilterBy.FormattingEnabled = true;
             this.cbFilterBy.Items.AddRange(new object[] {
-            "Person  ID",
-            "National  No"});
+            "Person ID",
+            "National No"});
             this.cbFilterBy.Location = new System.Drawing.Point(95, 44);
             this.cbFilterBy.Name = "cbFilterBy";
             this.cbFilterBy.Size = new System.Drawing.Size(152, 24);

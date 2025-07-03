@@ -251,6 +251,9 @@ namespace DVLD_Project_Final
             this.Close();
         }
 
-      
+        private void dgvPeople_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

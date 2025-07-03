@@ -53,5 +53,11 @@ namespace DVLD_Project_Final
             Form frm = new frmLocal();
             frm.ShowDialog();
         }
+
+        private void usersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmManageUsers(-1);
+            frm.ShowDialog();
+        }
     }
 }

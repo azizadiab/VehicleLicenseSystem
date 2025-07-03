@@ -234,6 +234,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Image = global::DVLD_Project_Final.Properties.Resources.Female_512;
             this.pictureBox1.Location = new System.Drawing.Point(611, 130);
             this.pictureBox1.Name = "pictureBox1";
@@ -294,7 +295,6 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ctrlPersonCard";
             this.Size = new System.Drawing.Size(809, 353);
-           
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

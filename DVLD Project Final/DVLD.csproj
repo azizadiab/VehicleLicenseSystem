@@ -46,6 +46,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ctrlUserCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrlUserCard.Designer.cs">
+      <DependentUpon>ctrlUserCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\frmShowUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\frmShowUser.Designer.cs">
+      <DependentUpon>frmShowUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\LoginInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\LoginInfo.Designer.cs">
+      <DependentUpon>LoginInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\Update User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\Update User.Designer.cs">
+      <DependentUpon>Update User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\frmAddNewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\frmAddNewUser.Designer.cs">
+      <DependentUpon>frmAddNewUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\ManageUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\ManageUsers.Designer.cs">
+      <DependentUpon>ManageUsers.cs</DependentUpon>
+    </Compile>
     <Compile Include="People\Control\ctrlPersonCardWithFilter.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -78,10 +120,10 @@
     <Compile Include="People\Control\ctPersonCard.Designer.cs">
       <DependentUpon>ctPersonCard.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmPersonInformation.cs">
+    <Compile Include="People\frmPersonInformation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmPersonInformation.Designer.cs">
+    <Compile Include="People\frmPersonInformation.Designer.cs">
       <DependentUpon>frmPersonInformation.cs</DependentUpon>
     </Compile>
     <Compile Include="People\frmAddUpdatePerson.cs">
@@ -107,6 +149,27 @@
     <EmbeddedResource Include="Applications\Local.resx">
       <DependentUpon>Local.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ctrlUserCard.resx">
+      <DependentUpon>ctrlUserCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\frmShowUser.resx">
+      <DependentUpon>frmShowUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\LoginInfo.resx">
+      <DependentUpon>LoginInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\Update User.resx">
+      <DependentUpon>Update User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\frmAddNewUser.resx">
+      <DependentUpon>frmAddNewUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\ManageUsers.resx">
+      <DependentUpon>ManageUsers.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="People\Control\ctrlPersonCardWithFilter.resx">
       <DependentUpon>ctrlPersonCardWithFilter.cs</DependentUpon>
     </EmbeddedResource>
@@ -116,7 +179,7 @@
     <EmbeddedResource Include="People\Control\ctPersonCard.resx">
       <DependentUpon>ctPersonCard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmPersonInformation.resx">
+    <EmbeddedResource Include="People\frmPersonInformation.resx">
       <DependentUpon>frmPersonInformation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="People\frmAddUpdatePerson.resx">
@@ -222,6 +285,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\New Application 64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close 321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Next 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconLogo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign_in 32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

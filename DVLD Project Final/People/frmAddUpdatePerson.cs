@@ -200,7 +200,9 @@ namespace DVLD_Project_Final
 
                 MessageBox.Show("Data Saved Successfully.", "Saved", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 // Trigger the event to send data back to the caller form.
-                DataBack?.Invoke(this, _Person.PersonID);
+              
+
+
                 
             }
 

@@ -16,8 +16,10 @@ namespace DVLD_Project_Final
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-           Application.Run(new frmMain());
-          // Application.Run(new frmPersonInformation());
+           Application.Run(new frmMain()); 
+           //Application.Run(new frmLogin()); 
+
+
 
         }
     }
