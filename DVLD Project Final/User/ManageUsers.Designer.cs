@@ -137,61 +137,61 @@
             this.ctmsSendEmail,
             this.ctmsPhoneCall});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(185, 184);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(211, 212);
             // 
             // ctmsShowDetails
             // 
             this.ctmsShowDetails.Name = "ctmsShowDetails";
-            this.ctmsShowDetails.Size = new System.Drawing.Size(184, 24);
+            this.ctmsShowDetails.Size = new System.Drawing.Size(210, 24);
             this.ctmsShowDetails.Text = "Show Details";
             this.ctmsShowDetails.Click += new System.EventHandler(this.ctmsShowDetails_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(181, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(207, 6);
             // 
             // ctmsAddNewUser
             // 
             this.ctmsAddNewUser.Name = "ctmsAddNewUser";
-            this.ctmsAddNewUser.Size = new System.Drawing.Size(184, 24);
+            this.ctmsAddNewUser.Size = new System.Drawing.Size(210, 24);
             this.ctmsAddNewUser.Text = "Add New User";
             this.ctmsAddNewUser.Click += new System.EventHandler(this.ctmsAddNewUser_Click);
             // 
             // ctmsEdit
             // 
             this.ctmsEdit.Name = "ctmsEdit";
-            this.ctmsEdit.Size = new System.Drawing.Size(184, 24);
-            this.ctmsEdit.Text = "Edit";
+            this.ctmsEdit.Size = new System.Drawing.Size(210, 24);
+            this.ctmsEdit.Text = "Edit User";
             this.ctmsEdit.Click += new System.EventHandler(this.ctmsEdit_Click);
             // 
             // ctmsDelete
             // 
             this.ctmsDelete.Name = "ctmsDelete";
-            this.ctmsDelete.Size = new System.Drawing.Size(184, 24);
+            this.ctmsDelete.Size = new System.Drawing.Size(210, 24);
             this.ctmsDelete.Text = "Delete";
             // 
             // ctmsShangPassword
             // 
             this.ctmsShangPassword.Name = "ctmsShangPassword";
-            this.ctmsShangPassword.Size = new System.Drawing.Size(184, 24);
+            this.ctmsShangPassword.Size = new System.Drawing.Size(210, 24);
             this.ctmsShangPassword.Text = "Shang Password";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(181, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(207, 6);
             // 
             // ctmsSendEmail
             // 
             this.ctmsSendEmail.Name = "ctmsSendEmail";
-            this.ctmsSendEmail.Size = new System.Drawing.Size(184, 24);
+            this.ctmsSendEmail.Size = new System.Drawing.Size(210, 24);
             this.ctmsSendEmail.Text = "Send Email";
             // 
             // ctmsPhoneCall
             // 
             this.ctmsPhoneCall.Name = "ctmsPhoneCall";
-            this.ctmsPhoneCall.Size = new System.Drawing.Size(184, 24);
+            this.ctmsPhoneCall.Size = new System.Drawing.Size(210, 24);
             this.ctmsPhoneCall.Text = "Phone Call";
             // 
             // btnAddUser

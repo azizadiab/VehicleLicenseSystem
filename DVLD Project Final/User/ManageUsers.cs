@@ -172,8 +172,8 @@ namespace DVLD_Project_Final
             //    return;
             //}
 
-            frmAddNewUser frm = new frmAddNewUser();
-           frm.DataBack+= frmAddNewUser_DataBack;
+            frmAddUpdateUser frm = new frmAddUpdateUser();
+        
             frm.ShowDialog();
             frmManageUsers_Load(null, null);
         }
@@ -191,14 +191,14 @@ namespace DVLD_Project_Final
 
         private void ctmsEdit_Click(object sender, EventArgs e)
         {
-            frmUpdateUser frm = new frmUpdateUser();
+           frmAddUpdateUser frm = new frmAddUpdateUser((int)dgvUsers.CurrentRow.Cells[0].Value);
             frm.ShowDialog();
         }
 
         private void ctmsShowDetails_Click(object sender, EventArgs e)
         {
             int UserID = (int)dgvUsers.CurrentRow.Cells[0].Value;
-            frmUserHnfo frm = new frmUserHnfo(UserID);
+            frmAddUpdateUser frm = new frmAddUpdateUser(UserID);
             frm.ShowDialog();
         }
 

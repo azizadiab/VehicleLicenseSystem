@@ -111,8 +111,8 @@ namespace DVLD_Buisness
 
         private bool _AddNewUser()
         {
-                  
-       this.UserID = clsUesrData.AddNewUser(this.PersonID, this.UserName,
+            //call DataAccess Layer         
+            this.UserID = clsUesrData.AddNewUser(this.PersonID, this.UserName,
                                               this.Password, this.IsActive);
 
             return (this.UserID != -1);
@@ -121,7 +121,7 @@ namespace DVLD_Buisness
 
         private bool _UpdateUser()
         {
-
+            //call DataAccess Layer 
             return clsUesrData.UpdateUser(this.UserID, this.PersonID, this.UserName,
                                               this.Password, this.IsActive);
         }

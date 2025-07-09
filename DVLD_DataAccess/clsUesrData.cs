@@ -143,7 +143,7 @@ namespace DVLD_DataAccess
             SqlConnection Connection = new SqlConnection(clsDataAccessStrings.connectionString);
             string query = @"insert into Users(PersonID,UserName, Password, IsActive)
                                                Values(@PersonID, @UserName, @Password, @IsActive)
-                                               Select SCOPE_IDENTITY()";
+                                               Select SCOPE_IDENTITY();";
             SqlCommand Command = new SqlCommand(query, Connection);
             Command.Parameters.AddWithValue("@PersonID", PersonID);
             Command.Parameters.AddWithValue("@UserName", UserName);
@@ -154,7 +154,7 @@ namespace DVLD_DataAccess
             {
                 Connection.Open();
 
-                Object Result = Command.ExecuteScalar();
+                object Result = Command.ExecuteScalar();
                 if (Result != null && int.TryParse(Result.ToString(), out int insertedID))
                 {
                     UserID = insertedID;
@@ -174,7 +174,8 @@ namespace DVLD_DataAccess
 
         }
     
-        public static bool UpdateUser(int UserID, int PersonID, string UserName, string Password, bool IsActive)
+        public static bool UpdateUser(int UserID, int PersonID, string UserName,
+                                      string Password, bool IsActive)
         {
 
             int rowsAffected = 0;

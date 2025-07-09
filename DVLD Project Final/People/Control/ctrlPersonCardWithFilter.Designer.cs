@@ -37,8 +37,8 @@
             this.btnFind = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.ctrlPersonCard1 = new DVLD_Project_Final.ctrlPersonCard();
             this.errorProvider2 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.ctrlPersonCard1 = new DVLD_Project_Final.ctrlPersonCard();
             this.gbFilters.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider2)).BeginInit();
@@ -54,7 +54,7 @@
             this.cbFilterBy.Name = "cbFilterBy";
             this.cbFilterBy.Size = new System.Drawing.Size(152, 24);
             this.cbFilterBy.TabIndex = 1;
-            this.cbFilterBy.SelectedIndexChanged += new System.EventHandler(this.cbFilterBy_SelectedIndexChanged_1);
+           
             // 
             // lbFindBy
             // 
@@ -74,10 +74,11 @@
             this.gbFilters.Controls.Add(this.cbFilterBy);
             this.gbFilters.Location = new System.Drawing.Point(20, 20);
             this.gbFilters.Name = "gbFilters";
-            this.gbFilters.Size = new System.Drawing.Size(786, 84);
+            this.gbFilters.Size = new System.Drawing.Size(781, 84);
             this.gbFilters.TabIndex = 7;
             this.gbFilters.TabStop = false;
             this.gbFilters.Text = "Filter";
+           
             // 
             // txtFilterValue
             // 
@@ -111,20 +112,20 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // errorProvider2
+            // 
+            this.errorProvider2.ContainerControl = this;
+            // 
             // ctrlPersonCard1
             // 
             this.ctrlPersonCard1.AccessibleDescription = "";
             this.ctrlPersonCard1.AccessibleName = "";
             this.ctrlPersonCard1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ctrlPersonCard1.Location = new System.Drawing.Point(20, 129);
+            this.ctrlPersonCard1.Location = new System.Drawing.Point(20, 111);
             this.ctrlPersonCard1.Margin = new System.Windows.Forms.Padding(4);
             this.ctrlPersonCard1.Name = "ctrlPersonCard1";
-            this.ctrlPersonCard1.Size = new System.Drawing.Size(813, 341);
+            this.ctrlPersonCard1.Size = new System.Drawing.Size(774, 298);
             this.ctrlPersonCard1.TabIndex = 0;
-            // 
-            // errorProvider2
-            // 
-            this.errorProvider2.ContainerControl = this;
             // 
             // ctrlPersonCardWithFilter
             // 
@@ -133,7 +134,7 @@
             this.Controls.Add(this.gbFilters);
             this.Controls.Add(this.ctrlPersonCard1);
             this.Name = "ctrlPersonCardWithFilter";
-            this.Size = new System.Drawing.Size(1004, 524);
+            this.Size = new System.Drawing.Size(804, 431);
             this.Load += new System.EventHandler(this.ctrlPersonCardWithFilter_Load);
             this.gbFilters.ResumeLayout(false);
             this.gbFilters.PerformLayout();

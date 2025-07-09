@@ -38,7 +38,7 @@
            
             this.ctrlPersonCardWithFilter1.Location = new System.Drawing.Point(-3, 77);
             this.ctrlPersonCardWithFilter1.Name = "ctrlPersonCardWithFilter1";
-            this.ctrlPersonCardWithFilter1.ShowAddNew = true;
+            this.ctrlPersonCardWithFilter1.ShowAddPerson = true;
             this.ctrlPersonCardWithFilter1.Size = new System.Drawing.Size(855, 484);
             this.ctrlPersonCardWithFilter1.TabIndex = 0;
             this.ctrlPersonCardWithFilter1.Load += new System.EventHandler(this.ctrlPersonCardWithFilter1_Load);

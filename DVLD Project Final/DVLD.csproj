@@ -46,10 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ctrlUserCard.cs">
+    <Compile Include="User\ctrlUserCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ctrlUserCard.Designer.cs">
+    <Compile Include="User\ctrlUserCard.Designer.cs">
       <DependentUpon>ctrlUserCard.cs</DependentUpon>
     </Compile>
     <Compile Include="frmLogin.cs">
@@ -64,23 +64,11 @@
     <Compile Include="User\frmShowUser.Designer.cs">
       <DependentUpon>frmShowUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="User\LoginInfo.cs">
+    <Compile Include="User\frmAddUpdateUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="User\LoginInfo.Designer.cs">
-      <DependentUpon>LoginInfo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="User\Update User.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="User\Update User.Designer.cs">
-      <DependentUpon>Update User.cs</DependentUpon>
-    </Compile>
-    <Compile Include="User\frmAddNewUser.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="User\frmAddNewUser.Designer.cs">
-      <DependentUpon>frmAddNewUser.cs</DependentUpon>
+    <Compile Include="User\frmAddUpdateUser.Designer.cs">
+      <DependentUpon>frmAddUpdateUser.cs</DependentUpon>
     </Compile>
     <Compile Include="User\ManageUsers.cs">
       <SubType>Form</SubType>
@@ -149,7 +137,7 @@
     <EmbeddedResource Include="Applications\Local.resx">
       <DependentUpon>Local.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ctrlUserCard.resx">
+    <EmbeddedResource Include="User\ctrlUserCard.resx">
       <DependentUpon>ctrlUserCard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
@@ -158,14 +146,8 @@
     <EmbeddedResource Include="User\frmShowUser.resx">
       <DependentUpon>frmShowUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="User\LoginInfo.resx">
-      <DependentUpon>LoginInfo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="User\Update User.resx">
-      <DependentUpon>Update User.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="User\frmAddNewUser.resx">
-      <DependentUpon>frmAddNewUser.cs</DependentUpon>
+    <EmbeddedResource Include="User\frmAddUpdateUser.resx">
+      <DependentUpon>frmAddUpdateUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User\ManageUsers.resx">
       <DependentUpon>ManageUsers.cs</DependentUpon>

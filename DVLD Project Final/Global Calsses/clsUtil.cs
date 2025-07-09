@@ -69,7 +69,7 @@ namespace DVLD_Project_Final
             }
             catch(IOException ex)
             {
-                MessageBox.Show("ERror");
+                MessageBox.Show("ERror", ex.Message );
                 return false;
             }
             SourceFile = DestiinationFile;

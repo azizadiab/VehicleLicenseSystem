@@ -3,14 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|c:\\users\\user\\source\\repos\\dvld project final\\user\\frmaddupdateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|solutionrelative:user\\frmaddupdateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{40E12D9C-98F4-4246-8B02-7EEC49231523}|..\\DVLD_DataAccess\\DVLD_DataAccess.csproj|c:\\users\\user\\source\\repos\\dvld_dataaccess\\clsuesrdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{087D349D-61FB-491B-99C3-741E953D811E}|..\\DVLD_Buisness\\DVLD_Buisness.csproj|c:\\users\\user\\source\\repos\\dvld_buisness\\clsuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|c:\\users\\user\\source\\repos\\dvld project final\\user\\frmaddupdateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|solutionrelative:user\\frmaddupdateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|C:\\Users\\USER\\source\\repos\\DVLD Project Final\\user\\manageusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -36,7 +36,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -56,26 +56,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "clsUesrData.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD_DataAccess\\clsUesrData.cs",
               "RelativeDocumentMoniker": "..\\DVLD_DataAccess\\clsUesrData.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD_DataAccess\\clsUesrData.cs",
               "RelativeToolTip": "..\\DVLD_DataAccess\\clsUesrData.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBIAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAQwLEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-09T12:27:42.567Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "clsUser.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD_Buisness\\clsUser.cs",
               "RelativeDocumentMoniker": "..\\DVLD_Buisness\\clsUser.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD_Buisness\\clsUser.cs",
               "RelativeToolTip": "..\\DVLD_Buisness\\clsUser.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAUwEsAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAiwHIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-09T12:22:42.542Z",
               "EditorCaption": ""
@@ -108,13 +108,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "frmAddUpdateUser.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\User\\frmAddUpdateUser.cs",
               "RelativeDocumentMoniker": "User\\frmAddUpdateUser.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\User\\frmAddUpdateUser.cs",
-              "RelativeToolTip": "User\\frmAddUpdateUser.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAqwEcAAAAjAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\User\\frmAddUpdateUser.cs*",
+              "RelativeToolTip": "User\\frmAddUpdateUser.cs*",
+              "ViewState": "AgIAAGwAAAAAAAAAAADwv4AAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T07:41:09.965Z",
               "EditorCaption": ""
@@ -125,8 +125,8 @@
               "Title": "frmAddUpdateUser.cs [Design]",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\User\\frmAddUpdateUser.cs",
               "RelativeDocumentMoniker": "User\\frmAddUpdateUser.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\User\\frmAddUpdateUser.cs [Design]",
-              "RelativeToolTip": "User\\frmAddUpdateUser.cs [Design]",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\User\\frmAddUpdateUser.cs [Design]*",
+              "RelativeToolTip": "User\\frmAddUpdateUser.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-09T07:15:35.809Z",
               "EditorCaption": " [Design]"

@@ -22,9 +22,8 @@ C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmLo
 C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmFindPerson.resources
 C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmShowPersonInfo.resources
 C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmManageUsers.resources
-C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmAddNewUser.resources
-C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmUpdateUser.resources
-C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmLoginInfo.resources
 C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.ctrlUserCard.resources
 C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmUserHnfo.resources
 C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmLogin.resources
+C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD Project Final.exe.config
+C:\Users\USER\source\repos\DVLD Project Final\obj\Debug\DVLD_Project_Final.frmAddUpdateUser.resources
