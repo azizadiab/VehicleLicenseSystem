@@ -1,0 +1,115 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|c:\\users\\user\\source\\repos\\dvld project final\\people\\frmaddupdateperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|solutionrelative:people\\frmaddupdateperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|c:\\users\\user\\source\\repos\\dvld project final\\applications\\frmeditapplicationtype_load.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|solutionrelative:applications\\frmeditapplicationtype_load.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|c:\\users\\user\\source\\repos\\dvld project final\\applications\\frmeditapplicationtype_load.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|solutionrelative:applications\\frmeditapplicationtype_load.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|c:\\users\\user\\source\\repos\\dvld project final\\global calsses\\clsvalidatoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E06A9CF0-319D-410C-BEFF-488BB6D4FC8D}|DVLD.csproj|solutionrelative:global calsses\\clsvalidatoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C8983E-A334-4D52-952D-469E8F6AC83C}|..\\clsSecurity\\clsSecurity.csproj|c:\\users\\user\\source\\repos\\clssecurity\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmAddUpdatePerson.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\People\\frmAddUpdatePerson.cs",
+              "RelativeDocumentMoniker": "People\\frmAddUpdatePerson.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\People\\frmAddUpdatePerson.cs",
+              "RelativeToolTip": "People\\frmAddUpdatePerson.cs",
+              "ViewState": "AgIAAIQBAAAAAAAAAAAmwIYBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T12:24:46.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clsValidatoin.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\Global Calsses\\clsValidatoin.cs",
+              "RelativeDocumentMoniker": "Global Calsses\\clsValidatoin.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\Global Calsses\\clsValidatoin.cs",
+              "RelativeToolTip": "Global Calsses\\clsValidatoin.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T12:18:43.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmEditApplicationType_Load.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\Applications\\frmEditApplicationType_Load.cs",
+              "RelativeDocumentMoniker": "Applications\\frmEditApplicationType_Load.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\Applications\\frmEditApplicationType_Load.cs [Design]",
+              "RelativeToolTip": "Applications\\frmEditApplicationType_Load.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T16:34:45.237Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmEditApplicationType_Load.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\Applications\\frmEditApplicationType_Load.cs",
+              "RelativeDocumentMoniker": "Applications\\frmEditApplicationType_Load.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\DVLD Project Final\\Applications\\frmEditApplicationType_Load.cs",
+              "RelativeToolTip": "Applications\\frmEditApplicationType_Load.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAiwHoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T16:37:44.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\clsSecurity\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\clsSecurity\\Class1.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\clsSecurity\\Class1.cs",
+              "RelativeToolTip": "..\\clsSecurity\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T06:32:55.789Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
